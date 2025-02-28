@@ -14,11 +14,11 @@
 <!-- START_TABLE_LIST -->
 |   Idx | Source   | Level   | Problem   | Andy   | Charlie   |
 |------:|:---------|:--------|:----------|:-------|:----------|
-|     1 | baekjoon | bronze  | 1110.py   | ✅     | ❌        |
-|     2 | baekjoon | bronze  | 2331.py   | ✅     | ✅        |
-|     3 | baekjoon | silver  | 11650.py  | ❌     | ✅        |
-|     4 | baekjoon | silver  | 1676.py   | ❌     | ✅        |
-|     5 | baekjoon | bronze  | 2798.py   | ❌     | ✅        |
+|     1 | baekjoon | bronze  | 1110.py   | ✅      | ❌         |
+|     2 | baekjoon | bronze  | 2331.py   | ✅      | ✅         |
+|     3 | baekjoon | bronze  | 2798.py   | ❌      | ✅         |
+|     4 | baekjoon | silver  | 11650.py  | ❌      | ✅         |
+|     5 | baekjoon | silver  | 1676.py   | ❌      | ✅         |
 <!-- END_TABLE_LIST -->
 
 ## 3. Instruction to Sign-Up as User
