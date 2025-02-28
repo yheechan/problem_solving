@@ -1,5 +1,4 @@
 import os
-import markdown
 import pandas as pd
 from datetime import datetime
 
@@ -38,25 +37,14 @@ def get_problem_status():
     return problem_dict
 
 def get_summary_status(problem_status):
-    summary_status = {}
+    summary_status = {user: {source: {} for source in SOURCES} for user in USERS}
     
-    for user in USERS:
-        summary_status[user] = {}
-        for source in SOURCES:
-            summary_status[user][source] = {}
-            if not os.path.exists(user + "/" + source):
-                continue
-            for level in os.listdir(user + "/" + source):
+    for (source, level, problem), status in problem_status.items():
+        for user in USERS:
+            if level not in summary_status[user][source]:
                 summary_status[user][source][level] = {"solved": 0}
-                
-                level_path = os.path.join(user, source, level)
-                if not os.path.isdir(level_path):
-                    continue
-                
-                for problem in os.listdir(level_path):
-                    if problem.endswith(".py"):
-                        if problem_status[(source, level, problem)][user] == "✅":
-                            summary_status[user][source][level]["solved"] += 1
+            if status[user] == "✅":
+                summary_status[user][source][level]["solved"] += 1
     
     return summary_status
 
@@ -73,9 +61,7 @@ def update_readme():
 
     summary_table_data = []
     for source in SOURCES:
-        if not os.path.exists("andy/" + source):
-            continue
-        for level in os.listdir("andy/" + source):
+        for level in summary_status["andy"][source]:
             summary_table_data.append(["Andy", source, level, summary_status["andy"][source][level]["solved"]])
             summary_table_data.append(["Charlie", source, level, summary_status["charlie"][source][level]["solved"]])
 
@@ -122,13 +108,13 @@ def update_readme():
             + new_readme_content[end_idx:]
         )
     else:
-        new_readme_content = new_readme_content + f"\n{list_table_start_marker}\n{list_md_table}\n{list_table_end_marker}\n"
+        new_new_readme_content = new_readme_content + f"\n{list_table_start_marker}\n{list_md_table}\n{list_table_end_marker}\n"
     
     # Update the last updated date
     current_date = datetime.now().strftime("%Y %b %d")
-    if last_updated_start_marker in new_readme_content and last_updated_end_marker in new_readme_content:
-        start_idx = new_readme_content.find(last_updated_start_marker) + len(last_updated_start_marker)
-        end_idx = new_readme_content.find(last_updated_end_marker)
+    if last_updated_start_marker in new_new_readme_content and last_updated_end_marker in new_new_readme_content:
+        start_idx = new_new_readme_content.find(last_updated_start_marker) + len(last_updated_start_marker)
+        end_idx = new_new_readme_content.find(last_updated_end_marker)
         new_new_readme_content = (
             new_new_readme_content[:start_idx]
             + "\nLast Update: " + current_date + "\n"
