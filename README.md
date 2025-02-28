@@ -1,7 +1,5 @@
 # problem_solving
 
-
-
 ## Summary of Solved Problems
 <!-- START_TABLE_SUMMARY -->
 | User    | Source   | Level   |   Solved |
@@ -18,6 +16,11 @@
 |     2 | baekjoon | bronze  | 2798.py   | ❌      | ✅         |
 <!-- END_TABLE_LIST -->
 
+## Command Usage
+* Update ``README.md`` file to follow up the newly solved problems by users.
+  * command: ``python3 update-README.py``
+
+--- 
 <!-- START_LAST_UPDATED -->
 Last Update: 2025 Feb 28
 <!-- END_LAST_UPDATED -->
