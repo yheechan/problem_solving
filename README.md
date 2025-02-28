@@ -34,7 +34,7 @@
     ```
     mkdir <user-name>
     ```
-4. Solve problems and add source code file to your directory (as explained in [section4](#4-directory-structure-adding-solved-problems)).
+4. Solve problems and add source code file to your directory (as explained in [section4](#4-directory-structure-to-add-solved-problems)).
     ```
     ./<user-name>/<source>/<level>/<problem-id>.py
     ```
