@@ -23,10 +23,8 @@
 
 ## Command Usage
 * Update ``README.md`` f
-Last Update: 2025 Feb 28
  solved problems by users.
-  * command: ``python
-Last Update: 2025 Feb 28
+  * command: ``python3 update-README.py``
 
 <!-- START_LAST_UPDATED -->
 Last Update: 2025 Feb 28
