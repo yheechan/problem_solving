@@ -22,8 +22,7 @@
 <!-- END_TABLE_LIST -->
 
 ## Command Usage
-* Update ``README.md`` f
- solved problems by users.
+* Update ``README.md`` file to follow up to the newly solved problems by users.
   * command: ``python3 update-README.py``
 
 <!-- START_LAST_UPDATED -->
