@@ -5,7 +5,7 @@
 | User    | Source   | Level   |   Solved |
 |:--------|:---------|:--------|---------:|
 | Andy    | baekjoon | bronze  |        2 |
-| Charlie | baekjoon | bronze  |        2 |
+| Charlie | baekjoon | bronze  |        3 |
 | Andy    | baekjoon | silver  |        0 |
 | Charlie | baekjoon | silver  |        2 |
 <!-- END_TABLE_SUMMARY -->
@@ -14,14 +14,14 @@
 <!-- START_TABLE_LIST -->
 |   Idx | Source   | Level   | Problem   | Andy   | Charlie   |
 |------:|:---------|:--------|:----------|:-------|:----------|
-|     1 | baekjoon | bronze  | 1110.py   | ✅      | ❌         |
+|     1 | baekjoon | bronze  | 1110.py   | ✅      | ✅         |
 |     2 | baekjoon | bronze  | 2331.py   | ✅      | ✅         |
 |     3 | baekjoon | bronze  | 2798.py   | ❌      | ✅         |
 |     4 | baekjoon | silver  | 11650.py  | ❌      | ✅         |
 |     5 | baekjoon | silver  | 1676.py   | ❌      | ✅         |
 <!-- END_TABLE_LIST -->
 
-## 3. Instruction to Sign-Up as User and Add Solved Problems
+## 3. Instructions to Sign-Up as User and Add Solved Problems
 1. Clone this repository to your local machine.
     ```
     git clone https://github.com/yheechan/problem_solving.git
@@ -30,11 +30,11 @@
     ```
     git checkout -b <user-name>
     ```
-3. Create a directory with ``<user-name>`` and begin adding codes for solved problems
+3. Create a directory with ``<user-name>`` and begin adding codes for solved problems.
     ```
     mkdir <user-name>
     ```
-4. Solve problems and add source code file to your directory (as explained in [section4](#4-directory-structure-adding-solved-problems))
+4. Solve problems and add source code file to your directory (as explained in [section4](#4-directory-structure-adding-solved-problems)).
     ```
     ./<user-name>/<source>/<level>/<problem-id>.py
     ```
@@ -46,7 +46,7 @@
     git push origin <user-name>
     ```
 
-## 4. Directory Structure Adding Solved Problems
+## 4. Directory Structure to Add Solved Problems
 ```
 ./problem_solving/
     ├── README.md
