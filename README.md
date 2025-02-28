@@ -34,7 +34,11 @@
     ```
     mkdir <user-name>
     ```
-4. **Push and send PR** after adding scripts for solved problems to directory (as explained in [section4](#4-structure-of-solved-problems-within-user-name-directories)).
+4. Solve problems and add source code file to your directory (as explained in [section4](#4-directory-structure-adding-solved-problems))
+    ```
+    ./<user-name>/<source>/<level>/<problem-id>.py
+    ```
+5. **Push and send PR**
     ```
     git status
     git add .
@@ -44,15 +48,16 @@
 
 ## 4. Directory Structure Adding Solved Problems
 ```
-├── README.md
-├── <user-name>
-│   └── <source>
-│       ├── <level>
-│       │   ├── <problem-id>.py
-│       └── silver
-│           ├── 11650.py
-│           └── input
-└── update-README.py
+./problem_solving/
+    ├── README.md
+    ├── <user-name>/
+    │   └── <source>/
+    │       ├── <level>/
+    │       │   ├── <problem-id>.py
+    │       └── silver/
+    │           ├── 11650.py
+    │           └── input
+    └── update-README.py
 ```
 * ``<user-name>``: Your own username.
 * ``<source>``: Company name that produced the problem (e.g., programmers, baekjoon, leetcode).
