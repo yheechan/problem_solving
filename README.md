@@ -21,7 +21,7 @@
 |     5 | baekjoon | silver  | 1676.py   | ❌      | ✅         |
 <!-- END_TABLE_LIST -->
 
-## 3. Instruction to Sign-Up as User
+## 3. Instruction to Sign-Up as User and Add Solved Problems
 1. Clone this repository to your local machine.
     ```
     git clone https://github.com/yheechan/problem_solving.git
@@ -42,7 +42,7 @@
     git push origin <user-name>
     ```
 
-## 4. Structure of Solved Problems within ``<user-name>`` directories
+## 4. Directory Structure Adding Solved Problems
 ```
 ├── README.md
 ├── <user-name>
@@ -63,6 +63,8 @@
 ## 5. Command Usage
 * Update ``README.md`` file to follow up to the newly solved problems by users.
   * command: ``python3 update-README.py``
+
+---
 
 <!-- START_LAST_UPDATED -->
 Last Update: 2025 Feb 28
