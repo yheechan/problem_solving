@@ -14,10 +14,14 @@
 |------:|:---------|:--------|:----------|:-------|:----------|
 |     1 | baekjoon | bronze  | 2331.py   | ✅      | ✅         |
 |     2 | baekjoon | bronze  | 2798.py   | ❌      | ✅         |
+|     3 | baekjoon | silver  | 11650.py  | ❌      | ✅         |
+|     4 | baekjoon | silver  | 1676.py   | ❌      | ✅         |
 <!-- END_TABLE_LIST -->
 
 ## Command Usage
-* Update ``README.md`` file to follow up the newly solved problems by users.
+* Update ``README.md`` f
+Last Update: 2025 Feb 28
+ solved problems by users.
   * command: ``python3 update-README.py``
 
 --- 
