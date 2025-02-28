@@ -2,23 +2,26 @@
 
 ## 1. Summary of Solved Problems
 <!-- START_TABLE_SUMMARY -->
-| User    | Source   | Level   |   Solved |
-|:--------|:---------|:--------|---------:|
-| Andy    | baekjoon | bronze  |        2 |
-| Charlie | baekjoon | bronze  |        3 |
-| Andy    | baekjoon | silver  |        0 |
-| Charlie | baekjoon | silver  |        2 |
+| User    | Source      | Level   |   Solved |
+|:--------|:------------|:--------|---------:|
+| Andy    | baekjoon    | bronze  |        2 |
+| Charlie | baekjoon    | bronze  |        3 |
+| Andy    | baekjoon    | silver  |        0 |
+| Charlie | baekjoon    | silver  |        2 |
+| Andy    | programmers | lv1     |        0 |
+| Charlie | programmers | lv1     |        1 |
 <!-- END_TABLE_SUMMARY -->
 
 ## 2. Lists of Solved Problems
 <!-- START_TABLE_LIST -->
-|   Idx | Source   | Level   | Problem   | Andy   | Charlie   |
-|------:|:---------|:--------|:----------|:-------|:----------|
-|     1 | baekjoon | bronze  | 1110.py   | ✅      | ✅         |
-|     2 | baekjoon | bronze  | 2331.py   | ✅      | ✅         |
-|     3 | baekjoon | bronze  | 2798.py   | ❌      | ✅         |
-|     4 | baekjoon | silver  | 11650.py  | ❌      | ✅         |
-|     5 | baekjoon | silver  | 1676.py   | ❌      | ✅         |
+|   Idx | Source      | Level   | Problem      | Andy   | Charlie   |
+|------:|:------------|:--------|:-------------|:-------|:----------|
+|     1 | baekjoon    | bronze  | 1110.py      | ✅      | ✅         |
+|     2 | baekjoon    | bronze  | 2331.py      | ✅      | ✅         |
+|     3 | baekjoon    | bronze  | 2798.py      | ❌      | ✅         |
+|     4 | baekjoon    | silver  | 11650.py     | ❌      | ✅         |
+|     5 | baekjoon    | silver  | 1676.py      | ❌      | ✅         |
+|     6 | programmers | lv1     | 택배_상자_꺼내기.py | ❌      | ✅         |
 <!-- END_TABLE_LIST -->
 
 ## 3. Instructions to Sign-Up as User and Add Solved Problems
