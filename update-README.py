@@ -17,12 +17,12 @@ def get_problem_status():
             if not os.path.exists(source_path):
                 continue
             
-            for level in os.listdir(source_path):
+            for level in sorted(os.listdir(source_path)):
                 level_path = os.path.join(source_path, level)
                 if not os.path.isdir(level_path):
                     continue
                 
-                for problem in os.listdir(level_path):
+                for problem in sorted(os.listdir(level_path)):
                     if problem.endswith(".py"):  # Consider only Python files
                         problem_key = (source, level, problem)
                         if problem_key not in problem_dict:
@@ -54,14 +54,14 @@ def update_readme():
     
     # Convert problem dictionary to a DataFrame
     list_table_data = []
-    for idx, ((source, level, problem), status) in enumerate(problem_status.items(), start=1):
+    for idx, ((source, level, problem), status) in enumerate(sorted(problem_status.items()), start=1):
         list_table_data.append([idx, source, level, problem, status["andy"], status["charlie"]])
     
     list_df = pd.DataFrame(list_table_data, columns=["Idx", "Source", "Level", "Problem", "Andy", "Charlie"])
 
     summary_table_data = []
     for source in SOURCES:
-        for level in summary_status["andy"][source]:
+        for level in sorted(summary_status["andy"][source]):
             summary_table_data.append(["Andy", source, level, summary_status["andy"][source][level]["solved"]])
             summary_table_data.append(["Charlie", source, level, summary_status["charlie"][source][level]["solved"]])
 
