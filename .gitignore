@@ -1,0 +1,66 @@
+# Build and Output Files
+*.out
+*.o
+*.a
+*.so
+*.exe
+*.dll
+*.dylib
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Byte-compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env/
+
+# Package files
+*.egg-info/
+dist/
+build/
+
+*.log
+*.tmp
+*.swp
+*.bak
+*.cache
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# VS Code
+.vscode/
+
+# JetBrains (PyCharm, IntelliJ)
+.idea/
+*.iml
+
+# Data files
+data/
+*.csv
+*.sqlite
+*.db
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+*.env
+
+# Config files
+config.json
+secrets.yml
