@@ -8,6 +8,8 @@
 | Charlie | baekjoon    | bronze  |        3 |
 | Andy    | baekjoon    | silver  |        0 |
 | Charlie | baekjoon    | silver  |        2 |
+| Andy    | baekjoon    | sliver  |        3 |
+| Charlie | baekjoon    | sliver  |        0 |
 | Andy    | programmers | lv1     |        0 |
 | Charlie | programmers | lv1     |        1 |
 <!-- END_TABLE_SUMMARY -->
@@ -21,7 +23,10 @@
 |     3 | baekjoon    | bronze  | 2798.py      | ❌      | ✅         |
 |     4 | baekjoon    | silver  | 11650.py     | ❌      | ✅         |
 |     5 | baekjoon    | silver  | 1676.py      | ❌      | ✅         |
-|     6 | programmers | lv1     | 택배_상자_꺼내기.py | ❌      | ✅         |
+|     6 | baekjoon    | sliver  | 1018.py      | ✅      | ❌         |
+|     7 | baekjoon    | sliver  | 11650.py     | ✅      | ❌         |
+|     8 | baekjoon    | sliver  | 1676.py      | ✅      | ❌         |
+|     9 | programmers | lv1     | 택배_상자_꺼내기.py | ❌      | ✅         |
 <!-- END_TABLE_LIST -->
 
 ## 3. Instructions to Sign-Up as User and Add Solved Problems
@@ -75,5 +80,5 @@
 ---
 
 <!-- START_LAST_UPDATED -->
-Last Update: 2025 Feb 28
+Last Update: 2025 Mar 01
 <!-- END_LAST_UPDATED -->
