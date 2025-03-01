@@ -23,7 +23,8 @@ def get_problem_status():
                     continue
                 
                 for problem in sorted(os.listdir(level_path)):
-                    if problem.endswith(".py"):  # Consider only Python files
+                    if problem.endswith(".py") or problem.endswith(".cpp") or problem.endswith(".c"):
+                        problem = problem[:problem.rfind(".")]
                         problem_key = (source, level, problem)
                         if problem_key not in problem_dict:
                             problem_dict[problem_key] = {user: "✅"}

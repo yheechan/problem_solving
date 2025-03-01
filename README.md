@@ -14,16 +14,16 @@
 
 ## 2. Lists of Solved Problems
 <!-- START_TABLE_LIST -->
-|   Idx | Source      | Level   | Problem      | Andy   | Charlie   |
-|------:|:------------|:--------|:-------------|:-------|:----------|
-|     1 | baekjoon    | bronze  | 1110.py      | ✅      | ✅         |
-|     2 | baekjoon    | bronze  | 2331.py      | ✅      | ✅         |
-|     3 | baekjoon    | bronze  | 2798.py      | ❌      | ✅         |
-|     4 | baekjoon    | silver  | 1018.py      | ✅      | ❌         |
-|     5 | baekjoon    | silver  | 11650.py     | ✅      | ✅         |
-|     6 | baekjoon    | silver  | 1676.py      | ✅      | ✅         |
-|     7 | baekjoon    | silver  | 2164.py      | ❌      | ✅         |
-|     8 | programmers | lv1     | 택배_상자_꺼내기.py | ❌      | ✅         |
+|   Idx | Source      | Level   | Problem   | Andy   | Charlie   |
+|------:|:------------|:--------|:----------|:-------|:----------|
+|     1 | baekjoon    | bronze  | 1110      | ✅      | ✅         |
+|     2 | baekjoon    | bronze  | 2331      | ✅      | ✅         |
+|     3 | baekjoon    | bronze  | 2798      | ❌      | ✅         |
+|     4 | baekjoon    | silver  | 1018      | ✅      | ❌         |
+|     5 | baekjoon    | silver  | 11650     | ✅      | ✅         |
+|     6 | baekjoon    | silver  | 1676      | ✅      | ✅         |
+|     7 | baekjoon    | silver  | 2164      | ❌      | ✅         |
+|     8 | programmers | lv1     | 택배_상자_꺼내기 | ❌      | ✅         |
 <!-- END_TABLE_LIST -->
 
 ## 3. Instructions to Sign-Up as User and Add Solved Problems
