@@ -9,13 +9,14 @@
   ```
 
 ### 1.1 Data Types - Problems
-data-type | problem | problem_title
-|:--------|:------------|---------:|
-| [unordered_set](#121-unordered_set) | [1920.cpp](./baekjoon/silver/1920.cpp) | 수 찾기1
-| [unordered_map](#122-unordered_map) | [10816.cpp](./baekjoon/silver/10816.cpp) | 수 찾기2
-| [vector](#123-vector) | [1018.cpp](./baekjoon/silver/1018.cpp) | 체스판 다시 칠하기
-| [stack](#124-stack) | [10828.cpp](./baekjoon/silver/10828.cpp) | 스택
-| [queue](#125-queue) | [10845.cpp](./baekjoon/silver/10845.cpp) | 큐
+* list of usefule data types in cpp:
+  | data-type | problem | problem_title |
+  |:--------|:------------|---------:|
+  | [unordered_set](#121-unordered_set) | [1920.cpp](./baekjoon/silver/1920.cpp) | [수 찾기](https://www.acmicpc.net/problem/1920) |
+  | [unordered_map](#122-unordered_map) | [10816.cpp](./baekjoon/silver/10816.cpp) | [숫자 카드 2](https://www.acmicpc.net/problem/10816) |
+  | [vector](#123-vector) | [1018.cpp](./baekjoon/silver/1018.cpp) | [체스판 다시 칠하기](https://www.acmicpc.net/problem/1018) |
+  | [stack](#124-stack) | [10828.cpp](./baekjoon/silver/10828.cpp) | [스택](https://www.acmicpc.net/problem/10828) |
+  | [queue](#125-queue) | [10845.cpp](./baekjoon/silver/10845.cpp) | [큐](https://www.acmicpc.net/problem/10845) |
 
 ### 1.2 Data Types - And there functions
 #### 1.2.1 unordered_set
