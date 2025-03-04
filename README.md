@@ -7,7 +7,7 @@
 | Andy    | baekjoon    | bronze  |        2 |
 | Charlie | baekjoon    | bronze  |        3 |
 | Andy    | baekjoon    | silver  |        3 |
-| Charlie | baekjoon    | silver  |        8 |
+| Charlie | baekjoon    | silver  |        9 |
 | Andy    | programmers | lv1     |        0 |
 | Charlie | programmers | lv1     |        1 |
 <!-- END_TABLE_SUMMARY -->
@@ -27,7 +27,8 @@
 |     9 | baekjoon    | silver  | 1676      | ✅      | ✅         |
 |    10 | baekjoon    | silver  | 1920      | ❌      | ✅         |
 |    11 | baekjoon    | silver  | 2164      | ❌      | ✅         |
-|    12 | programmers | lv1     | 택배_상자_꺼내기 | ❌      | ✅         |
+|    12 | baekjoon    | silver  | 9012      | ❌      | ✅         |
+|    13 | programmers | lv1     | 택배_상자_꺼내기 | ❌      | ✅         |
 <!-- END_TABLE_LIST -->
 
 ## 3. Instructions to Sign-Up as User and Add Solved Problems
