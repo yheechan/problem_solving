@@ -141,7 +141,7 @@
   ```
 * ``find()``: searches for a certain substring within a string, returning the position of the first character of the substring if found. Otherwise, returns ``string::npos``.
   ```
-  if (STREAM.find("World") ~= string::npos) cout << "Substring Found\n";
+  if (STREAM.find("World") != string::npos) cout << "Substring Found\n";
   else cout << "Substring NOT FOUND\n";
   ```
 
