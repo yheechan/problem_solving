@@ -4,9 +4,9 @@
 <!-- START_TABLE_SUMMARY -->
 | User    | Source      | Level   |   Solved |
 |:--------|:------------|:--------|---------:|
-| Andy    | baekjoon    | bronze  |        2 |
+| Andy    | baekjoon    | bronze  |        3 |
 | Charlie | baekjoon    | bronze  |        3 |
-| Andy    | baekjoon    | silver  |        3 |
+| Andy    | baekjoon    | silver  |        6 |
 | Charlie | baekjoon    | silver  |        9 |
 | Andy    | programmers | lv1     |        0 |
 | Charlie | programmers | lv1     |        1 |
@@ -18,15 +18,15 @@
 |------:|:------------|:--------|:----------|:-------|:----------|
 |     1 | baekjoon    | bronze  | 1110      | ✅      | ✅         |
 |     2 | baekjoon    | bronze  | 2331      | ✅      | ✅         |
-|     3 | baekjoon    | bronze  | 2798      | ❌      | ✅         |
+|     3 | baekjoon    | bronze  | 2798      | ✅      | ✅         |
 |     4 | baekjoon    | silver  | 1018      | ✅      | ✅         |
 |     5 | baekjoon    | silver  | 10816     | ❌      | ✅         |
-|     6 | baekjoon    | silver  | 10828     | ❌      | ✅         |
-|     7 | baekjoon    | silver  | 10845     | ❌      | ✅         |
+|     6 | baekjoon    | silver  | 10828     | ✅      | ✅         |
+|     7 | baekjoon    | silver  | 10845     | ✅      | ✅         |
 |     8 | baekjoon    | silver  | 11650     | ✅      | ✅         |
 |     9 | baekjoon    | silver  | 1676      | ✅      | ✅         |
 |    10 | baekjoon    | silver  | 1920      | ❌      | ✅         |
-|    11 | baekjoon    | silver  | 2164      | ❌      | ✅         |
+|    11 | baekjoon    | silver  | 2164      | ✅      | ✅         |
 |    12 | baekjoon    | silver  | 9012      | ❌      | ✅         |
 |    13 | programmers | lv1     | 택배_상자_꺼내기 | ❌      | ✅         |
 <!-- END_TABLE_LIST -->
@@ -82,5 +82,5 @@
 ---
 
 <!-- START_LAST_UPDATED -->
-Last Update: 2025 Mar 04
+Last Update: 2025 Mar 05
 <!-- END_LAST_UPDATED -->
