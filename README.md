@@ -7,7 +7,7 @@
 | Andy    | baekjoon    | bronze  |        3 |
 | Charlie | baekjoon    | bronze  |        3 |
 | Andy    | baekjoon    | silver  |        6 |
-| Charlie | baekjoon    | silver  |        9 |
+| Charlie | baekjoon    | silver  |       10 |
 | Andy    | programmers | lv1     |        0 |
 | Charlie | programmers | lv1     |        1 |
 <!-- END_TABLE_SUMMARY -->
@@ -24,11 +24,12 @@
 |     6 | baekjoon    | silver  | 10828     | ✅      | ✅         |
 |     7 | baekjoon    | silver  | 10845     | ✅      | ✅         |
 |     8 | baekjoon    | silver  | 11650     | ✅      | ✅         |
-|     9 | baekjoon    | silver  | 1676      | ✅      | ✅         |
-|    10 | baekjoon    | silver  | 1920      | ❌      | ✅         |
-|    11 | baekjoon    | silver  | 2164      | ✅      | ✅         |
-|    12 | baekjoon    | silver  | 9012      | ❌      | ✅         |
-|    13 | programmers | lv1     | 택배_상자_꺼내기 | ❌      | ✅         |
+|     9 | baekjoon    | silver  | 11866     | ❌      | ✅         |
+|    10 | baekjoon    | silver  | 1676      | ✅      | ✅         |
+|    11 | baekjoon    | silver  | 1920      | ❌      | ✅         |
+|    12 | baekjoon    | silver  | 2164      | ✅      | ✅         |
+|    13 | baekjoon    | silver  | 9012      | ❌      | ✅         |
+|    14 | programmers | lv1     | 택배_상자_꺼내기 | ❌      | ✅         |
 <!-- END_TABLE_LIST -->
 
 ## 3. Instructions to Sign-Up as User and Add Solved Problems
