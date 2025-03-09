@@ -7,7 +7,7 @@
 | Andy    | baekjoon    | bronze  |        3 |
 | Charlie | baekjoon    | bronze  |        3 |
 | Andy    | baekjoon    | silver  |        6 |
-| Charlie | baekjoon    | silver  |       11 |
+| Charlie | baekjoon    | silver  |       12 |
 | Andy    | programmers | lv1     |        0 |
 | Charlie | programmers | lv1     |        1 |
 <!-- END_TABLE_SUMMARY -->
@@ -27,10 +27,11 @@
 |     9 | baekjoon    | silver  | 11650     | ✅      | ✅         |
 |    10 | baekjoon    | silver  | 11866     | ❌      | ✅         |
 |    11 | baekjoon    | silver  | 1676      | ✅      | ✅         |
-|    12 | baekjoon    | silver  | 1920      | ❌      | ✅         |
-|    13 | baekjoon    | silver  | 2164      | ✅      | ✅         |
-|    14 | baekjoon    | silver  | 9012      | ❌      | ✅         |
-|    15 | programmers | lv1     | 택배_상자_꺼내기 | ❌      | ✅         |
+|    12 | baekjoon    | silver  | 1874      | ❌      | ✅         |
+|    13 | baekjoon    | silver  | 1920      | ❌      | ✅         |
+|    14 | baekjoon    | silver  | 2164      | ✅      | ✅         |
+|    15 | baekjoon    | silver  | 9012      | ❌      | ✅         |
+|    16 | programmers | lv1     | 택배_상자_꺼내기 | ❌      | ✅         |
 <!-- END_TABLE_LIST -->
 
 ## 3. Instructions to Sign-Up as User and Add Solved Problems
@@ -84,5 +85,5 @@
 ---
 
 <!-- START_LAST_UPDATED -->
-Last Update: 2025 Mar 06
+Last Update: 2025 Mar 09
 <!-- END_LAST_UPDATED -->
