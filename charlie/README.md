@@ -158,7 +158,7 @@
   else cout << "Substring NOT FOUND\n";
   ```
 
-#### 1.2.6 pair ([ref.](https://www.geeksforgeeks.org/pair-in-cpp-stl/))
+#### 1.2.7 pair ([ref.](https://www.geeksforgeeks.org/pair-in-cpp-stl/))
 * initialization
   ```
   pair<int, int> p1 = {3, 5};
