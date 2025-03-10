@@ -1,12 +1,24 @@
 # Notes by charlie
 
 ## 1. CPP
-### 1.0 Optimize standard input/output
+### 1.0 Minor Optimizations
+
+#### 1.0.1 Standard input/output
 * code:
   ```
   ios::sync_with_stdio(false);
   cin.tie(nullptr);
   ```
+
+#### 1.0.2 Next Line Character
+* code:
+  ```
+  // use
+  cout << "\n";
+  // instead of
+  cout << endl;
+  ```
+
 
 ### 1.1 Data Types - Problems
 * list of usefule data types in cpp:
@@ -146,4 +158,4 @@
   ```
 
 ---
-Last Update: 2025 Mar 05
+Last Update: 2025 Mar 10
