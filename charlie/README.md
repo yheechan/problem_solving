@@ -30,6 +30,7 @@
   | [stack](#124-stack-ref) | [10828.cpp](./baekjoon/silver/10828.cpp) | [스택](https://www.acmicpc.net/problem/10828) |
   | [queue](#125-queue-ref) | [10845.cpp](./baekjoon/silver/10845.cpp) | [큐](https://www.acmicpc.net/problem/10845) |
   | [string](#126-string-ref) | [9012.cpp](./baekjoon/silver/9012.cpp) | [괄호](https://www.acmicpc.net/problem/9012) |
+  | [pair](#127-pair-ref) | None | None |
 
 ### 1.2 Data Types - And there functions
 #### 1.2.1 unordered_set ([ref.](https://www.geeksforgeeks.org/unordered_set-in-cpp-stl/))
@@ -157,5 +158,12 @@
   else cout << "Substring NOT FOUND\n";
   ```
 
+#### 1.2.6 pair ([ref.](https://www.geeksforgeeks.org/pair-in-cpp-stl/))
+* initialization
+  ```
+  pair<int, int> p1 = {3, 5};
+  ```
+
 ---
 Last Update: 2025 Mar 10
+
