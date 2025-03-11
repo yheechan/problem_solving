@@ -163,7 +163,12 @@
   ```
   pair<int, int> p1 = {3, 5};
   ```
+* accessing pair data
+  ```
+  int e1 = p1.first;
+  int e2 = p1.second;
+  ```
 
 ---
-Last Update: 2025 Mar 10
+Last Update: 2025 Mar 11
 
