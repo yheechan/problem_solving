@@ -4,7 +4,7 @@ from datetime import datetime
 
 # Define the directory structure
 USERS = ["andy", "charlie"]
-SOURCES = ["baekjoon", "programmers", "leetcode"]
+SOURCES = ["baekjoon", "programmers", "leetcode", "codetree"]
 README_PATH = "README.md"
 
 

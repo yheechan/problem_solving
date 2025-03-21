@@ -10,30 +10,33 @@
 | Charlie | baekjoon    | silver  |       13 |
 | Andy    | programmers | lv1     |        0 |
 | Charlie | programmers | lv1     |        1 |
+| Andy    | codetree    | lv12    |        0 |
+| Charlie | codetree    | lv12    |        1 |
 <!-- END_TABLE_SUMMARY -->
 
 ## 2. Lists of Solved Problems
 <!-- START_TABLE_LIST -->
-|   Idx | Source      | Level   | Problem   | Andy   | Charlie   |
-|------:|:------------|:--------|:----------|:-------|:----------|
-|     1 | baekjoon    | bronze  | 1110      | ✅      | ✅         |
-|     2 | baekjoon    | bronze  | 13458     | ❌      | ✅         |
-|     3 | baekjoon    | bronze  | 2331      | ✅      | ✅         |
-|     4 | baekjoon    | bronze  | 2798      | ✅      | ✅         |
-|     5 | baekjoon    | silver  | 1003      | ❌      | ✅         |
-|     6 | baekjoon    | silver  | 1018      | ✅      | ✅         |
-|     7 | baekjoon    | silver  | 10816     | ❌      | ✅         |
-|     8 | baekjoon    | silver  | 10828     | ✅      | ✅         |
-|     9 | baekjoon    | silver  | 10845     | ✅      | ✅         |
-|    10 | baekjoon    | silver  | 11650     | ✅      | ✅         |
-|    11 | baekjoon    | silver  | 11866     | ❌      | ✅         |
-|    12 | baekjoon    | silver  | 14501     | ❌      | ✅         |
-|    13 | baekjoon    | silver  | 1676      | ✅      | ✅         |
-|    14 | baekjoon    | silver  | 1874      | ❌      | ✅         |
-|    15 | baekjoon    | silver  | 1920      | ❌      | ✅         |
-|    16 | baekjoon    | silver  | 2164      | ✅      | ✅         |
-|    17 | baekjoon    | silver  | 9012      | ❌      | ✅         |
-|    18 | programmers | lv1     | 택배_상자_꺼내기 | ❌      | ✅         |
+|   Idx | Source      | Level   | Problem     | Andy   | Charlie   |
+|------:|:------------|:--------|:------------|:-------|:----------|
+|     1 | baekjoon    | bronze  | 1110        | ✅      | ✅         |
+|     2 | baekjoon    | bronze  | 13458       | ❌      | ✅         |
+|     3 | baekjoon    | bronze  | 2331        | ✅      | ✅         |
+|     4 | baekjoon    | bronze  | 2798        | ✅      | ✅         |
+|     5 | baekjoon    | silver  | 1003        | ❌      | ✅         |
+|     6 | baekjoon    | silver  | 1018        | ✅      | ✅         |
+|     7 | baekjoon    | silver  | 10816       | ❌      | ✅         |
+|     8 | baekjoon    | silver  | 10828       | ✅      | ✅         |
+|     9 | baekjoon    | silver  | 10845       | ✅      | ✅         |
+|    10 | baekjoon    | silver  | 11650       | ✅      | ✅         |
+|    11 | baekjoon    | silver  | 11866       | ❌      | ✅         |
+|    12 | baekjoon    | silver  | 14501       | ❌      | ✅         |
+|    13 | baekjoon    | silver  | 1676        | ✅      | ✅         |
+|    14 | baekjoon    | silver  | 1874        | ❌      | ✅         |
+|    15 | baekjoon    | silver  | 1920        | ❌      | ✅         |
+|    16 | baekjoon    | silver  | 2164        | ✅      | ✅         |
+|    17 | baekjoon    | silver  | 9012        | ❌      | ✅         |
+|    18 | codetree    | lv12    | 고대_문명_유적_탐사 | ❌      | ✅         |
+|    19 | programmers | lv1     | 택배_상자_꺼내기   | ❌      | ✅         |
 <!-- END_TABLE_LIST -->
 
 ## 3. Instructions to Sign-Up as User and Add Solved Problems
@@ -87,5 +90,5 @@
 ---
 
 <!-- START_LAST_UPDATED -->
-Last Update: 2025 Mar 12
+Last Update: 2025 Mar 21
 <!-- END_LAST_UPDATED -->
