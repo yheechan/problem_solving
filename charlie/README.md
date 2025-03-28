@@ -169,6 +169,60 @@
   int e2 = p1.second;
   ```
 
+# 2. Python
+### 2.0 Minor Optimizations
+
+#### 2.0.1 Standard input/output
+* code:
+  ```
+  x, y, z = map(int, input.split())
+  ```
+
+### 2.1 Data Types - Problems
+* list of usefule data types in cpp:
+  | data-type | problem | problem_title |
+  |:--------|:------------|---------:|
+  | [deque](#221-deque-ref) | [1260.cpp](./baekjoon/silver/1260.py) | [DFS와 BFS](https://www.acmicpc.net/problem/1260) |
+  | [list](#222-list-ref) | [1260.cpp](./baekjoon/silver/1260.py) | [DFS와 BFS](https://www.acmicpc.net/problem/1260) |
+
+### 2.2 Data Types - And there functions
+#### 2.2.1 deque ([ref.](https://www.geeksforgeeks.org/deque-in-python/))
+* initialization
+  ```
+  DEQUE = deque([1, 2])
+  ```
+* ``append(x)``: appends an element to the right-end of the deque.
+  ```
+  DEQUE.append(1);
+  ```
+* ``DEQUE.appendleft(x)``: appends an element to the left-end of the deque.
+  ```
+  DEQUE.appendleft(1);
+  ```
+* ``pop()``: removed and return the element from the right-end of the deque.
+  ```
+  x = DEQUE.pop()
+  ```
+* ``popleft()``: removed and return the element from the left-end of the deque.
+  ```
+  x = DEQUE.popleft()
+  ```
+* ``count(x)``: counts the number of occurrences of value in the deque.
+  ```
+  x = DEQUE.count(2)
+  ```
+
+#### 2.2.2 list ([ref.](https://www.geeksforgeeks.org/python-lists/))
+* initialization
+  ```
+  LIST = list()
+  ```
+* ``remove(x)``: removed the first occurence of an element.
+  ```
+  LIST.remove(3)
+  ```
+
+
 ---
-Last Update: 2025 Mar 11
+Last Update: 2025 Mar 28
 
