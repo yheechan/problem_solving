@@ -23,6 +23,8 @@ def get_problem_status():
                     continue
                 
                 for problem in sorted(os.listdir(level_path)):
+                    if problem.endswith(".hidden"): continue
+
                     if problem.endswith(".py") or problem.endswith(".cpp") or problem.endswith(".c"):
                         problem = problem[:problem.rfind(".")]
                         problem_key = (source, level, problem)

@@ -1,90 +1,79 @@
 from collections import deque
-import copy
 
-WHITE = 0
-BLACK = 1
-GRAY = 2
+def add_node(graph, n):
+  if n not in graph:
+    graph[n] = []
 
-class Node:
-  def __init__(self,):
-    self.state = WHITE
-    self.edges = list()
+def add_edge(graph, x, y):
+  # undirected graph
+  graph[x].append(y)
+  graph[y].append(x)
 
-class Graph:
-  def __init__(self, N, M, V):
-    self.N = N
-    self.M = M
-    self.V = V
-    self.nodes = {x: Node() for x in range(1, N+1)}
+def sort_edges(graph):
+  for n, edges in graph.items():
+    graph[n].sort()
 
 
-def DFS(graph, v):
-  if len(graph.nodes[v].edges) == 0:
-    if graph.nodes[v].state == WHITE:
-      graph.nodes[v].state = BLACK
-      print(v, end=' ')
-    return
+def dfs_rec(graph, visited, v):
+  visited[v] = True
+  print(v, end=' ')
 
-  if graph.nodes[v].state == WHITE:
-    graph.nodes[v].state = BLACK
-    print(v, end=' ')
-    
-  while len(graph.nodes[v].edges) != 0:
-    next_node = graph.nodes[v].edges[0]
-    graph.nodes[v].edges.remove(next_node)
-    if graph.nodes[next_node] != BLACK:
-      DFS(graph, next_node)
-    
+  for i in graph[v]:
+    if not visited[i]:
+      dfs_rec(graph, visited, i)
   
-def BFS(graph, v):
-  if graph.nodes[v].state == WHITE:
-    graph.nodes[v].state = BLACK
-    print(v, end=' ')
-    return
 
-  for next_node_idx in graph.nodes[v].edges:
-    if graph.nodes[next_node_idx].state == WHITE:
-      graph.nodes[next_node_idx].state = BLACK
-      print(next_node_idx, end=' ')
+def dfs(graph, v, N):
+  visited = [False for _ in range(N+1)]
+  dfs_rec(graph, visited, v)
 
-  while len(graph.nodes[v].edges) != 0:
-    next_node = graph.nodes[v].edges[0]
-    graph.nodes[v].edges.remove(next_node)
-    if graph.nodes[next_node] != BLACK:
-      BFS(graph, next_node)
 
-    
+
+def bfs(graph, v, N):
+  visited = [False for _ in range(N+1)]
+
+  visited[v] = True
+  Q = deque([v])
+
+  res = []
+
+  while Q:
+    curr = Q.popleft()
+    res.append(curr)
+
+    for i in graph[curr]:
+      if not visited[i]:
+        visited[i] = True
+        Q.append(i)
+  
+  out = " ".join(map(str, res))
+  print(out)
+
 
 
 def main():
   N, M, V = map(int, input().split())
-  G = Graph(N, M, V)
+
+  graph = {i: [] for i in range(1, N+1)}
 
   # get input and make graph
-  graph = {}
   for i in range(M):
     x, y = map(int, input().split())
-    if x not in graph:
-      graph[x] = []
-    if y not in graph:
-      graph[y] = []
-    if y not in graph[x]:
-      graph[x].append(y)
-    if x not in graph[y]:
-      graph[y].append(x)
+    add_node(graph, x)
+    add_node(graph, y)
+    add_edge(graph, x, y)
 
-  # sort and save it as deque data type
-  for node, edges in graph.items():
-    G.nodes[node].edges = sorted(edges)
+  sort_edges(graph)
 
 
-  dfs_graph = copy.deepcopy(G)
-  bfs_graph = copy.deepcopy(G)
-  
-  DFS(dfs_graph, V)
+  dfs(graph, V, N)
   print()
-  BFS(bfs_graph, V)
+  bfs(graph, V, N)
+  
   
 
 if __name__ == "__main__":
   main()
+
+
+
