@@ -7,6 +7,15 @@ USERS = ["andy", "charlie"]
 SOURCES = ["baekjoon", "programmers", "leetcode", "codetree"]
 README_PATH = "README.md"
 
+# Function to colorize level text
+def colorize_level(level):
+    if "bronze" in level.lower():
+        return f'<span style="color:#CD7F32;">{level}</span>'  # Brown
+    elif "silver" in level.lower():
+        return f'<span style="color:#C0C0C0;">{level}</span>'  # Silver
+    elif "gold" in level.lower():
+        return f'<span style="color:#FFD700;">{level}</span>'  # Gold
+    return level  # Default (no color)
 
 def get_problem_status():
     problem_dict = {}
@@ -58,7 +67,7 @@ def update_readme():
     # Convert problem dictionary to a DataFrame
     list_table_data = []
     for idx, ((source, level, problem), status) in enumerate(sorted(problem_status.items()), start=1):
-        list_table_data.append([idx, source, level, problem, status["andy"], status["charlie"]])
+        list_table_data.append([idx, source, colorize_level(level), problem, status["andy"], status["charlie"]])
     
     list_df = pd.DataFrame(list_table_data, columns=["Idx", "Source", "Level", "Problem", "Andy", "Charlie"])
 
@@ -74,7 +83,6 @@ def update_readme():
     list_md_table = list_df.to_markdown(index=False)
     summary_md_table = summary_df.to_markdown(index=False)
 
-    
     # Read existing README.md content
     readme_content = ""
     if os.path.exists(README_PATH):
@@ -131,7 +139,6 @@ def update_readme():
         f.write(new_new_readme_content)
     
     print("README.md updated successfully!")
-
 
 if __name__ == "__main__":
     update_readme()
