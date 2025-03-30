@@ -35,7 +35,6 @@ def main():
   # M: horizontal (가로)
   # N: vertical (세로)
   M, N = map(int, input().split())
-  print(M, N)
 
   traverse = deque()
   empty = 0
