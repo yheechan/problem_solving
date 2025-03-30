@@ -7,7 +7,7 @@
 | Andy    | baekjoon    | bronze  |        3 |
 | Charlie | baekjoon    | bronze  |        4 |
 | Andy    | baekjoon    | silver  |        6 |
-| Charlie | baekjoon    | silver  |       14 |
+| Charlie | baekjoon    | silver  |       15 |
 | Andy    | programmers | lv1     |        0 |
 | Charlie | programmers | lv1     |        1 |
 | Andy    | codetree    | lv12    |        0 |
@@ -23,21 +23,22 @@
 |     3 | baekjoon    | bronze  | 2331                     | ✅     | ✅        |
 |     4 | baekjoon    | bronze  | 2798                     | ✅     | ✅        |
 |     5 | baekjoon    | silver  | 1003                     | ❌     | ✅        |
-|     6 | baekjoon    | silver  | 1018                     | ✅     | ✅        |
-|     7 | baekjoon    | silver  | 10816                    | ❌     | ✅        |
-|     8 | baekjoon    | silver  | 10828                    | ✅     | ✅        |
-|     9 | baekjoon    | silver  | 10845                    | ✅     | ✅        |
-|    10 | baekjoon    | silver  | 11650                    | ✅     | ✅        |
-|    11 | baekjoon    | silver  | 11866                    | ❌     | ✅        |
-|    12 | baekjoon    | silver  | 1260                     | ❌     | ✅        |
-|    13 | baekjoon    | silver  | 14501                    | ❌     | ✅        |
-|    14 | baekjoon    | silver  | 1676                     | ✅     | ✅        |
-|    15 | baekjoon    | silver  | 1874                     | ❌     | ✅        |
-|    16 | baekjoon    | silver  | 1920                     | ❌     | ✅        |
-|    17 | baekjoon    | silver  | 2164                     | ✅     | ✅        |
-|    18 | baekjoon    | silver  | 9012                     | ❌     | ✅        |
-|    19 | codetree    | lv12    | ancient_ruin_exploration | ❌     | ✅        |
-|    20 | programmers | lv1     | 택배_상자_꺼내기         | ❌     | ✅        |
+|     6 | baekjoon    | silver  | 1012                     | ❌     | ✅        |
+|     7 | baekjoon    | silver  | 1018                     | ✅     | ✅        |
+|     8 | baekjoon    | silver  | 10816                    | ❌     | ✅        |
+|     9 | baekjoon    | silver  | 10828                    | ✅     | ✅        |
+|    10 | baekjoon    | silver  | 10845                    | ✅     | ✅        |
+|    11 | baekjoon    | silver  | 11650                    | ✅     | ✅        |
+|    12 | baekjoon    | silver  | 11866                    | ❌     | ✅        |
+|    13 | baekjoon    | silver  | 1260                     | ❌     | ✅        |
+|    14 | baekjoon    | silver  | 14501                    | ❌     | ✅        |
+|    15 | baekjoon    | silver  | 1676                     | ✅     | ✅        |
+|    16 | baekjoon    | silver  | 1874                     | ❌     | ✅        |
+|    17 | baekjoon    | silver  | 1920                     | ❌     | ✅        |
+|    18 | baekjoon    | silver  | 2164                     | ✅     | ✅        |
+|    19 | baekjoon    | silver  | 9012                     | ❌     | ✅        |
+|    20 | codetree    | lv12    | ancient_ruin_exploration | ❌     | ✅        |
+|    21 | programmers | lv1     | 택배_상자_꺼내기         | ❌     | ✅        |
 <!-- END_TABLE_LIST -->
 
 ## 3. Instructions to Sign-Up as User and Add Solved Problems
@@ -87,9 +88,10 @@
 ## 5. Command Usage
 * Update ``README.md`` file to follow up to the newly solved problems by users.
   * command: ``python3 update-README.py``
+  * Change the file's extension to ``*.hidden`` to prevent this script to count the **unsolved problem**.
 
 ---
 
 <!-- START_LAST_UPDATED -->
-Last Update: 2025 Mar 29
+Last Update: 2025 Mar 30
 <!-- END_LAST_UPDATED -->
