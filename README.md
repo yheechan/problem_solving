@@ -7,7 +7,7 @@
 | Andy    | baekjoon    | bronze  |        3 |
 | Charlie | baekjoon    | bronze  |        4 |
 | Andy    | baekjoon    | silver  |        6 |
-| Charlie | baekjoon    | silver  |       15 |
+| Charlie | baekjoon    | silver  |       16 |
 | Andy    | programmers | lv1     |        0 |
 | Charlie | programmers | lv1     |        1 |
 | Andy    | codetree    | lv12    |        0 |
@@ -33,12 +33,13 @@
 |    13 | baekjoon    | silver  | 1260                     | ❌     | ✅        |
 |    14 | baekjoon    | silver  | 14501                    | ❌     | ✅        |
 |    15 | baekjoon    | silver  | 1676                     | ✅     | ✅        |
-|    16 | baekjoon    | silver  | 1874                     | ❌     | ✅        |
-|    17 | baekjoon    | silver  | 1920                     | ❌     | ✅        |
-|    18 | baekjoon    | silver  | 2164                     | ✅     | ✅        |
-|    19 | baekjoon    | silver  | 9012                     | ❌     | ✅        |
-|    20 | codetree    | lv12    | ancient_ruin_exploration | ❌     | ✅        |
-|    21 | programmers | lv1     | 택배_상자_꺼내기         | ❌     | ✅        |
+|    16 | baekjoon    | silver  | 1697                     | ❌     | ✅        |
+|    17 | baekjoon    | silver  | 1874                     | ❌     | ✅        |
+|    18 | baekjoon    | silver  | 1920                     | ❌     | ✅        |
+|    19 | baekjoon    | silver  | 2164                     | ✅     | ✅        |
+|    20 | baekjoon    | silver  | 9012                     | ❌     | ✅        |
+|    21 | codetree    | lv12    | ancient_ruin_exploration | ❌     | ✅        |
+|    22 | programmers | lv1     | 택배_상자_꺼내기         | ❌     | ✅        |
 <!-- END_TABLE_LIST -->
 
 ## 3. Instructions to Sign-Up as User and Add Solved Problems
