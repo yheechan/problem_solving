@@ -1,0 +1,39 @@
+
+
+def rec_knapsack(items, n, k):
+    if n == 0 or k == 0:
+        return 0
+    
+    pick = 0
+
+    curr_weight = items[n-1][0]
+    if curr_weight <= k:
+        pick = items[n-1][1] + rec_knapsack(items, n-1, k-curr_weight)
+
+    notpick = rec_knapsack(items, n-1, k)
+
+    return max(pick, notpick)
+
+
+def dp(items, N, K):
+    res = rec_knapsack(items, N, K)
+    return res
+
+
+def main():
+    # N: number of items
+    # K: weight limit
+    N, K = map(int, input().split())
+    items = []
+    for _ in range(N):
+        W, V = map(int, input().split())
+        items.append((W, V))
+
+    res = dp(items, N, K)
+    print(res)
+
+if __name__ == "__main__":
+
+    main()
+
+
