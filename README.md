@@ -7,7 +7,7 @@
 | Andy    | baekjoon    | bronze  |        3 |
 | Charlie | baekjoon    | bronze  |        4 |
 | Andy    | baekjoon    | gold    |        0 |
-| Charlie | baekjoon    | gold    |        6 |
+| Charlie | baekjoon    | gold    |        7 |
 | Andy    | baekjoon    | silver  |        6 |
 | Charlie | baekjoon    | silver  |       17 |
 | Andy    | programmers | lv1     |        0 |
@@ -27,28 +27,29 @@
 |     5 | baekjoon    | <span style="color:#FFD700;">gold</span>   | 12865                    | ❌     | ✅        |
 |     6 | baekjoon    | <span style="color:#FFD700;">gold</span>   | 13549                    | ❌     | ✅        |
 |     7 | baekjoon    | <span style="color:#FFD700;">gold</span>   | 1753                     | ❌     | ✅        |
-|     8 | baekjoon    | <span style="color:#FFD700;">gold</span>   | 1931                     | ❌     | ✅        |
-|     9 | baekjoon    | <span style="color:#FFD700;">gold</span>   | 7569                     | ❌     | ✅        |
-|    10 | baekjoon    | <span style="color:#FFD700;">gold</span>   | 7576                     | ❌     | ✅        |
-|    11 | baekjoon    | <span style="color:#C0C0C0;">silver</span> | 1003                     | ❌     | ✅        |
-|    12 | baekjoon    | <span style="color:#C0C0C0;">silver</span> | 1012                     | ❌     | ✅        |
-|    13 | baekjoon    | <span style="color:#C0C0C0;">silver</span> | 1018                     | ✅     | ✅        |
-|    14 | baekjoon    | <span style="color:#C0C0C0;">silver</span> | 10816                    | ❌     | ✅        |
-|    15 | baekjoon    | <span style="color:#C0C0C0;">silver</span> | 10828                    | ✅     | ✅        |
-|    16 | baekjoon    | <span style="color:#C0C0C0;">silver</span> | 10845                    | ✅     | ✅        |
-|    17 | baekjoon    | <span style="color:#C0C0C0;">silver</span> | 11650                    | ✅     | ✅        |
-|    18 | baekjoon    | <span style="color:#C0C0C0;">silver</span> | 11866                    | ❌     | ✅        |
-|    19 | baekjoon    | <span style="color:#C0C0C0;">silver</span> | 1260                     | ❌     | ✅        |
-|    20 | baekjoon    | <span style="color:#C0C0C0;">silver</span> | 14501                    | ❌     | ✅        |
-|    21 | baekjoon    | <span style="color:#C0C0C0;">silver</span> | 14940                    | ❌     | ✅        |
-|    22 | baekjoon    | <span style="color:#C0C0C0;">silver</span> | 1676                     | ✅     | ✅        |
-|    23 | baekjoon    | <span style="color:#C0C0C0;">silver</span> | 1697                     | ❌     | ✅        |
-|    24 | baekjoon    | <span style="color:#C0C0C0;">silver</span> | 1874                     | ❌     | ✅        |
-|    25 | baekjoon    | <span style="color:#C0C0C0;">silver</span> | 1920                     | ❌     | ✅        |
-|    26 | baekjoon    | <span style="color:#C0C0C0;">silver</span> | 2164                     | ✅     | ✅        |
-|    27 | baekjoon    | <span style="color:#C0C0C0;">silver</span> | 9012                     | ❌     | ✅        |
-|    28 | codetree    | lv12                                       | ancient_ruin_exploration | ❌     | ✅        |
-|    29 | programmers | lv1                                        | 택배_상자_꺼내기         | ❌     | ✅        |
+|     8 | baekjoon    | <span style="color:#FFD700;">gold</span>   | 1916                     | ❌     | ✅        |
+|     9 | baekjoon    | <span style="color:#FFD700;">gold</span>   | 1931                     | ❌     | ✅        |
+|    10 | baekjoon    | <span style="color:#FFD700;">gold</span>   | 7569                     | ❌     | ✅        |
+|    11 | baekjoon    | <span style="color:#FFD700;">gold</span>   | 7576                     | ❌     | ✅        |
+|    12 | baekjoon    | <span style="color:#C0C0C0;">silver</span> | 1003                     | ❌     | ✅        |
+|    13 | baekjoon    | <span style="color:#C0C0C0;">silver</span> | 1012                     | ❌     | ✅        |
+|    14 | baekjoon    | <span style="color:#C0C0C0;">silver</span> | 1018                     | ✅     | ✅        |
+|    15 | baekjoon    | <span style="color:#C0C0C0;">silver</span> | 10816                    | ❌     | ✅        |
+|    16 | baekjoon    | <span style="color:#C0C0C0;">silver</span> | 10828                    | ✅     | ✅        |
+|    17 | baekjoon    | <span style="color:#C0C0C0;">silver</span> | 10845                    | ✅     | ✅        |
+|    18 | baekjoon    | <span style="color:#C0C0C0;">silver</span> | 11650                    | ✅     | ✅        |
+|    19 | baekjoon    | <span style="color:#C0C0C0;">silver</span> | 11866                    | ❌     | ✅        |
+|    20 | baekjoon    | <span style="color:#C0C0C0;">silver</span> | 1260                     | ❌     | ✅        |
+|    21 | baekjoon    | <span style="color:#C0C0C0;">silver</span> | 14501                    | ❌     | ✅        |
+|    22 | baekjoon    | <span style="color:#C0C0C0;">silver</span> | 14940                    | ❌     | ✅        |
+|    23 | baekjoon    | <span style="color:#C0C0C0;">silver</span> | 1676                     | ✅     | ✅        |
+|    24 | baekjoon    | <span style="color:#C0C0C0;">silver</span> | 1697                     | ❌     | ✅        |
+|    25 | baekjoon    | <span style="color:#C0C0C0;">silver</span> | 1874                     | ❌     | ✅        |
+|    26 | baekjoon    | <span style="color:#C0C0C0;">silver</span> | 1920                     | ❌     | ✅        |
+|    27 | baekjoon    | <span style="color:#C0C0C0;">silver</span> | 2164                     | ✅     | ✅        |
+|    28 | baekjoon    | <span style="color:#C0C0C0;">silver</span> | 9012                     | ❌     | ✅        |
+|    29 | codetree    | lv12                                       | ancient_ruin_exploration | ❌     | ✅        |
+|    30 | programmers | lv1                                        | 택배_상자_꺼내기         | ❌     | ✅        |
 <!-- END_TABLE_LIST -->
 
 ## 3. Instructions to Sign-Up as User and Add Solved Problems
