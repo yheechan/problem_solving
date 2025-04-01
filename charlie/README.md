@@ -5,7 +5,7 @@
 |:--------|:------------|---------:|
 | [Dynamic Programming](https://www.geeksforgeeks.org/dynamic-programming/) | [12865.py](./baekjoon/gold/12865.py) | [평범한 배낭](https://www.acmicpc.net/problem/12865) |
 | [BFS](https://www.geeksforgeeks.org/dynamic-programming/) | [7576.py](./baekjoon/gold/7576.py) | [토마토](https://www.acmicpc.net/problem/7576) |
-| [DFS와 BFS](https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/) | [1260.py](./baekjoon/silver/1260.py) | [체스판 다시 칠하기](https://www.acmicpc.net/problem/1260) |
+| [DFS](https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/) | [1260.py](./baekjoon/silver/1260.py) | [DFS와 BFS](https://www.acmicpc.net/problem/1260) |
 
 ## 1. CPP
 ### 1.0 Minor Optimizations
