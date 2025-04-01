@@ -1,7 +1,3 @@
-
-
-
-
 def dp(items, N, K):
     n = N
     dp = [[0]*(K+1) for _ in range(N+1)]
@@ -11,16 +7,18 @@ def dp(items, N, K):
         # for each weight
         for j in range(K+1):
 
-            if i==0 and j==0:
+            if i==0 or j==0:
                 dp[i][j] = 0
             else:
                 pick = 0
 
-                if items[i-1][
+                if items[i-1][0] <= j:
+                    pick = items[i-1][1] + dp[i-1][j-items[i-1][0]]
 
+                notpick = dp[i-1][j]
+                dp[i][j] = max(pick, notpick)
 
-    return res
-
+    return dp[N][K]
 
 def main():
     # N: number of items
@@ -35,7 +33,5 @@ def main():
     print(res)
 
 if __name__ == "__main__":
-
     main()
-
 
