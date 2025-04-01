@@ -7,6 +7,7 @@
 | [BFS](https://www.geeksforgeeks.org/dynamic-programming/) | [7576.py](./baekjoon/gold/7576.py) | [토마토](https://www.acmicpc.net/problem/7576) |
 | [DFS+BFS](https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/) | [1260.py](./baekjoon/silver/1260.py) | [DFS와 BFS](https://www.acmicpc.net/problem/1260) |
 | [BFS+DIJKSTRA+Shortest](https://www.w3schools.com/dsa/dsa_algo_graphs_dijkstra.php) | [13549.py](./baekjoon/gold/13549.py) | [숨바꼭질 3](https://www.acmicpc.net/problem/13549) |
+| [DIJKSTRA+python-heapq*](https://littlefoxdiary.tistory.com/3) | [1753.py](./baekjoon/gold/1753.py) | [최단경로](https://www.acmicpc.net/problem/1753)
 
 ## 1. CPP
 ### 1.0 Minor Optimizations
@@ -39,6 +40,7 @@
   | [queue](#125-queue-ref) | [10845.cpp](./baekjoon/silver/10845.cpp) | [큐](https://www.acmicpc.net/problem/10845) |
   | [string](#126-string-ref) | [9012.cpp](./baekjoon/silver/9012.cpp) | [괄호](https://www.acmicpc.net/problem/9012) |
   | [pair](#127-pair-ref) | None | None |
+  | [heapq](#128-heapq-ref) | [1753.py](./baekjoon/gold/1753.py) | [최단경로](https://www.acmicpc.net/problem/1753)
 
 ### 1.2 Data Types - And there functions
 #### 1.2.1 unordered_set ([ref.](https://www.geeksforgeeks.org/unordered_set-in-cpp-stl/))
@@ -176,6 +178,20 @@
   int e1 = p1.first;
   int e2 = p1.second;
   ```
+
+### 1.2.8 heapq ([ref.](https://littlefoxdiary.tistory.com/3))
+``heapq`` works as a mean-heap in which orders the elements in list as a binary tree form. At all time, parent node is greater than its children nodes.
+* initializatoin (usage):
+  ```
+  ls = [(0, "A")]
+  num, ch = heapq.heappop(ls)
+  ```
+* ``heapq.heappop(ls)``: Pops the element that has the mean value for first element in tuple
+  ```
+  ls = [(0, "A")]
+  num, ch = heapq.heappop(ls)
+  ```
+* ``heapq.heappush(ls, (2, "C"))``: Pushes a new element and sor
 
 # 2. Python
 ### 2.0 Minor Optimizations
