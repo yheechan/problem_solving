@@ -7,7 +7,7 @@
 | Andy    | baekjoon    | bronze  |        3 |
 | Charlie | baekjoon    | bronze  |        4 |
 | Andy    | baekjoon    | gold    |        0 |
-| Charlie | baekjoon    | gold    |        7 |
+| Charlie | baekjoon    | gold    |        8 |
 | Andy    | baekjoon    | silver  |        6 |
 | Charlie | baekjoon    | silver  |       18 |
 | Andy    | programmers | lv1     |        0 |
@@ -29,28 +29,29 @@
 |     7 | baekjoon    | <span style="color:#FFD700;">gold</span>   | 1753                     | ❌      | ✅         |
 |     8 | baekjoon    | <span style="color:#FFD700;">gold</span>   | 1916                     | ❌      | ✅         |
 |     9 | baekjoon    | <span style="color:#FFD700;">gold</span>   | 1931                     | ❌      | ✅         |
-|    10 | baekjoon    | <span style="color:#FFD700;">gold</span>   | 7569                     | ❌      | ✅         |
-|    11 | baekjoon    | <span style="color:#FFD700;">gold</span>   | 7576                     | ❌      | ✅         |
-|    12 | baekjoon    | <span style="color:#C0C0C0;">silver</span> | 1003                     | ❌      | ✅         |
-|    13 | baekjoon    | <span style="color:#C0C0C0;">silver</span> | 1012                     | ❌      | ✅         |
-|    14 | baekjoon    | <span style="color:#C0C0C0;">silver</span> | 1018                     | ✅      | ✅         |
-|    15 | baekjoon    | <span style="color:#C0C0C0;">silver</span> | 10816                    | ❌      | ✅         |
-|    16 | baekjoon    | <span style="color:#C0C0C0;">silver</span> | 10828                    | ✅      | ✅         |
-|    17 | baekjoon    | <span style="color:#C0C0C0;">silver</span> | 10845                    | ✅      | ✅         |
-|    18 | baekjoon    | <span style="color:#C0C0C0;">silver</span> | 11650                    | ✅      | ✅         |
-|    19 | baekjoon    | <span style="color:#C0C0C0;">silver</span> | 11866                    | ❌      | ✅         |
-|    20 | baekjoon    | <span style="color:#C0C0C0;">silver</span> | 1260                     | ❌      | ✅         |
-|    21 | baekjoon    | <span style="color:#C0C0C0;">silver</span> | 14501                    | ❌      | ✅         |
-|    22 | baekjoon    | <span style="color:#C0C0C0;">silver</span> | 14940                    | ❌      | ✅         |
-|    23 | baekjoon    | <span style="color:#C0C0C0;">silver</span> | 1676                     | ✅      | ✅         |
-|    24 | baekjoon    | <span style="color:#C0C0C0;">silver</span> | 1697                     | ❌      | ✅         |
-|    25 | baekjoon    | <span style="color:#C0C0C0;">silver</span> | 1874                     | ❌      | ✅         |
-|    26 | baekjoon    | <span style="color:#C0C0C0;">silver</span> | 1920                     | ❌      | ✅         |
-|    27 | baekjoon    | <span style="color:#C0C0C0;">silver</span> | 2164                     | ✅      | ✅         |
-|    28 | baekjoon    | <span style="color:#C0C0C0;">silver</span> | 2178                     | ❌      | ✅         |
-|    29 | baekjoon    | <span style="color:#C0C0C0;">silver</span> | 9012                     | ❌      | ✅         |
-|    30 | codetree    | lv12                                       | ancient_ruin_exploration | ❌      | ✅         |
-|    31 | programmers | lv1                                        | 택배_상자_꺼내기                | ❌      | ✅         |
+|    10 | baekjoon    | <span style="color:#FFD700;">gold</span>   | 1967                     | ❌      | ✅         |
+|    11 | baekjoon    | <span style="color:#FFD700;">gold</span>   | 7569                     | ❌      | ✅         |
+|    12 | baekjoon    | <span style="color:#FFD700;">gold</span>   | 7576                     | ❌      | ✅         |
+|    13 | baekjoon    | <span style="color:#C0C0C0;">silver</span> | 1003                     | ❌      | ✅         |
+|    14 | baekjoon    | <span style="color:#C0C0C0;">silver</span> | 1012                     | ❌      | ✅         |
+|    15 | baekjoon    | <span style="color:#C0C0C0;">silver</span> | 1018                     | ✅      | ✅         |
+|    16 | baekjoon    | <span style="color:#C0C0C0;">silver</span> | 10816                    | ❌      | ✅         |
+|    17 | baekjoon    | <span style="color:#C0C0C0;">silver</span> | 10828                    | ✅      | ✅         |
+|    18 | baekjoon    | <span style="color:#C0C0C0;">silver</span> | 10845                    | ✅      | ✅         |
+|    19 | baekjoon    | <span style="color:#C0C0C0;">silver</span> | 11650                    | ✅      | ✅         |
+|    20 | baekjoon    | <span style="color:#C0C0C0;">silver</span> | 11866                    | ❌      | ✅         |
+|    21 | baekjoon    | <span style="color:#C0C0C0;">silver</span> | 1260                     | ❌      | ✅         |
+|    22 | baekjoon    | <span style="color:#C0C0C0;">silver</span> | 14501                    | ❌      | ✅         |
+|    23 | baekjoon    | <span style="color:#C0C0C0;">silver</span> | 14940                    | ❌      | ✅         |
+|    24 | baekjoon    | <span style="color:#C0C0C0;">silver</span> | 1676                     | ✅      | ✅         |
+|    25 | baekjoon    | <span style="color:#C0C0C0;">silver</span> | 1697                     | ❌      | ✅         |
+|    26 | baekjoon    | <span style="color:#C0C0C0;">silver</span> | 1874                     | ❌      | ✅         |
+|    27 | baekjoon    | <span style="color:#C0C0C0;">silver</span> | 1920                     | ❌      | ✅         |
+|    28 | baekjoon    | <span style="color:#C0C0C0;">silver</span> | 2164                     | ✅      | ✅         |
+|    29 | baekjoon    | <span style="color:#C0C0C0;">silver</span> | 2178                     | ❌      | ✅         |
+|    30 | baekjoon    | <span style="color:#C0C0C0;">silver</span> | 9012                     | ❌      | ✅         |
+|    31 | codetree    | lv12                                       | ancient_ruin_exploration | ❌      | ✅         |
+|    32 | programmers | lv1                                        | 택배_상자_꺼내기                | ❌      | ✅         |
 <!-- END_TABLE_LIST -->
 
 ## 3. Instructions to Sign-Up as User and Add Solved Problems

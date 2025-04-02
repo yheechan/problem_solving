@@ -8,6 +8,7 @@
 | [DFS+BFS](https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/) | [1260.py](./baekjoon/silver/1260.py) | [DFS와 BFS](https://www.acmicpc.net/problem/1260) |
 | [BFS+DIJKSTRA+Shortest](https://www.w3schools.com/dsa/dsa_algo_graphs_dijkstra.php) | [13549.py](./baekjoon/gold/13549.py) | [숨바꼭질 3](https://www.acmicpc.net/problem/13549) |
 | [DIJKSTRA+python-heapq*](https://littlefoxdiary.tistory.com/3) | [1753.py](./baekjoon/gold/1753.py), [1916.py](./baekjoon/gold/1916.py) | [최단경로](https://www.acmicpc.net/problem/1753), [최소비용 구하기](https://www.acmicpc.net/problem/1916)
+| DIJKSTRA+stack | [1967.py](./baekjoon/gold/1967.py) | [트리의 지름](https://www.acmicpc.net/problem/1967)
 
 ## 1. CPP
 ### 1.0 Minor Optimizations

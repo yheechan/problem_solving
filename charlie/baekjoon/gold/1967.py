@@ -33,27 +33,27 @@ class Graph:
 
         return content
 
-    def dfs_rec(self, visited, s, distance):
-        visited[s] = 1
-        longest = distance
-        for n, w in self.adj_nodes[s].items():
-            if visited[n] == 0:
-                longest = max(longest, self.dfs_rec(visited, n, distance+w))
-        return longest
 
     def dfs(self, s):
         visited = copy.deepcopy(self.visited)
-        return self.dfs_rec(visited, s, 0)
-    
-    def diameter_of_graph(self, ):
-        answer = -1
 
-        # DFS for each std_node and find the longest path
-        for std_node in range(self.n):
-            res = self.dfs(std_node)
-            answer = max(res, answer)
+        stack = []
+        visited[s] = 1
+        longest = (s, 0)
+        for n, w in self.adj_nodes[s].items():
+            stack.append((n, w, w))
 
-        return answer
+        while stack:
+            cn, cw, cd = stack.pop()
+            visited[cn] = 1
+            if cd>longest[1]:
+                longest = (cn, cd)
+
+            for nn, nw in self.adj_nodes[cn].items():
+                if visited[nn] == 0:
+                    stack.append((nn, nw, nw+cd))
+
+        return longest
 
 
 def main():
@@ -65,9 +65,9 @@ def main():
         u, v, w = map(int, input().split())
         G.add_edge(u, v, w)
 
-    res = G.diameter_of_graph()
-    print(res)
-
+    res = G.dfs(0)
+    res = G.dfs(res[0])
+    print(res[1])
 
 
 if __name__ == "__main__":
