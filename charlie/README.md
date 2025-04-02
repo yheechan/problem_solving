@@ -180,12 +180,50 @@
   ```
 
 # 2. Python
+### 1.0 Minor Optimizations
+
+#### 1.0.1 Standard input/output
+* code:
+  ```
+  ios::sync_with_stdio(false);
+  cin.tie(nullptr);
+  ```
+
+#### 1.0.2 Next Line Character
+* code:
+  ```
+  // use
+  cout << "\n";
+  // instead of
+  cout << endl;
+  ```
 ### 2.0 Minor Optimizations
+
+#### 2.0.0 Standard input/output
+* code:
+  ```
+  # 1, 2, 3
+  # 2, 3
+  # 3, 4
+  import sys
+  input = sys.stdin.read
+  data = input().split("\n")
+  x, y, z = map(data[0].strip().split())
+  for d in data[1:]:
+    u, v = map(d.strip().split())
+  ```
 
 #### 2.0.1 Standard input/output
 * code:
   ```
   x, y, z = map(int, input.split())
+  ```
+
+#### 2.0.2 Maximum Recursion Depth Limitation
+* code:
+  ```
+  import sys
+  sys.setrecursionlimit(10**6) # 1,000,000
   ```
 
 ### 2.1 Data Types - Problems
