@@ -179,24 +179,7 @@
   int e2 = p1.second;
   ```
 
-# 2. Python
-### 1.0 Minor Optimizations
-
-#### 1.0.1 Standard input/output
-* code:
-  ```
-  ios::sync_with_stdio(false);
-  cin.tie(nullptr);
-  ```
-
-#### 1.0.2 Next Line Character
-* code:
-  ```
-  // use
-  cout << "\n";
-  // instead of
-  cout << endl;
-  ```
+## 2. Python
 ### 2.0 Minor Optimizations
 
 #### 2.0.0 Standard input/output
@@ -208,9 +191,9 @@
   import sys
   input = sys.stdin.read
   data = input().split("\n")
-  x, y, z = map(data[0].strip().split())
+  x, y, z = map(int, data[0].strip().split())
   for d in data[1:]:
-    u, v = map(d.strip().split())
+    u, v = map(int, d.strip().split())
   ```
 
 #### 2.0.1 Standard input/output
@@ -286,5 +269,5 @@
 * ``heapq.heappush(ls, (2, "C"))``: Pushes a new element and sor
 
 ---
-Last Update: 2025 April 1
+Last Update: 2025 April 3
 
