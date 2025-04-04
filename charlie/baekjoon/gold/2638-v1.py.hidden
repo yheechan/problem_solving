@@ -1,0 +1,148 @@
+import sys
+from collections import deque
+
+UNKNOWN = -1
+OUTER = 0
+INNER = 1
+CHEEZE = 2
+MELTING_CHEEZE = 3
+
+DIR = [[0, 1], [1, 0], [0, -1], [-1, 0]]
+
+class Paper:
+    def __init__(self, N, M):
+        self.N = N
+        self.M = M
+        self.types = []
+        self.identities = []
+
+    def __str__(self, type=1):
+        if type == 1:
+            content = "*** paper ***\n"
+            for row in self.types:
+                for g in row:
+                    content += f"{g} "
+                content += "\n"
+            content += "*************"
+        elif type == 2:
+            content = "*** grids ***\n"
+            for row in self.identities:
+                for g in row:
+                    content += f"{g} "
+                content += "\n"
+            content += "*************\n"
+        return content
+
+    def inrange(self, x, y):
+        if (x>-1 and self.M>x) and (y>-1 and self.N>y):
+            return True
+        return False
+
+    def mark_outer(self, ):
+        visited = [[0]*self.M for _ in range(self.N)]
+        outer_q = deque([(0, 0)])
+        cheeze_list = []
+        inner_list = []
+
+
+        while outer_q:
+            cx, cy = outer_q.popleft()
+            self.identities[cy][cx] = OUTER
+            visited[cy][cx] = 1
+
+            for d in range(4):
+                nx, ny = cx+DIR[d][0], cy+DIR[d][1]
+
+                if self.inrange(nx, ny):
+                    if visited[ny][nx] == 0:
+                        if self.types[ny][nx] == 0:
+                            outer_q.append((nx, ny))
+                        elif self.types[ny][nx] == 1:
+                            cheeze_list.append((nx, ny))
+
+        self.melting_cheeze_list = []
+        for x, y in cheeze_list:
+            if visited[y][x] == 1:
+                continue
+
+            cheeze_q = deque([(x, y)])
+            while cheeze_q:
+                cx, cy = cheeze_q.popleft()
+                self.identities[cy][cx] = CHEEZE
+                visited[cy][cx] = 1
+                outer_layer_cnt = 0
+                for d in range(4):
+                    nx, ny = cx+DIR[d][0], cy+DIR[d][1]
+
+                    if self.inrange(nx, ny):
+                        # OUTER
+                        if visited[ny][nx] == 1 and self.types[ny][nx] == 0:
+                            outer_layer_cnt += 1
+                        elif visited[ny][nx] == 0:
+                            # INNER
+                            if self.types[ny][nx] == 0:
+                                inner_list.append((nx, ny))
+                            # cheeze
+                            elif self.types[ny][nx] == 1:
+                                cheeze_q.append((nx, ny))
+
+                if outer_layer_cnt > 1:
+                    self.identities[cy][cx] = MELTING_CHEEZE
+                    self.melting_cheeze_list.append((cx, cy))
+
+        for x, y in inner_list:
+            if visited[y][x] == 1:
+                continue
+
+            inner_q = deque([(x, y)])
+            while inner_q:
+                cx, cy = inner_q.popleft()
+                self.identities[cy][cx] = INNER
+                visited[cy][cx] = 1
+                for d in range(4):
+                    nx, ny = cx+DIR[d][0], cy+DIR[d][1]
+
+                    if self.inrange(nx, ny) \
+                            and visited[ny][nx] == 1 and self.types[ny][nx] == 0:
+                                inner_q.append((nx, ny))
+
+    def melt_cheeze(self, ):
+        melted = False
+        for x, y in self.melting_cheeze_list:
+            melted = True
+            self.types[y][x] = 0
+            self.identities[y][x] = OUTER
+        return melted
+
+def main():
+    # N: vertical 세로
+    # M: horizontal 가로
+    input = sys.stdin.read
+    data = input().split("\n")
+    N, M = map(int, data[0].strip().split())
+
+    P = Paper(N, M)
+
+    for i in range(1, N+1):
+        row = list(map(int, data[i].split()))
+        type_row = []
+        identity_row = []
+        for col in row:
+            type_row.append(col)
+            identity_row.append(UNKNOWN)
+        P.types.append(type_row)
+        P.identities.append(identity_row)
+
+    hour = 0
+    while True:
+        P.mark_outer()
+        res = P.melt_cheeze()
+        if res == False:
+            break
+        hour += 1
+
+    print(hour)
+
+if __name__ == "__main__":
+    main()
+
