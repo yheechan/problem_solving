@@ -4,7 +4,7 @@
 <!-- START_TABLE_SUMMARY -->
 | User    | Source      | Level   |   Solved |
 |:--------|:------------|:--------|---------:|
-| Andy    | baekjoon    | bronze  |        3 |
+| Andy    | baekjoon    | bronze  |        4 |
 | Charlie | baekjoon    | bronze  |        5 |
 | Andy    | baekjoon    | gold    |        0 |
 | Charlie | baekjoon    | gold    |       11 |
@@ -21,7 +21,7 @@
 |   Idx | Source      | Level                                      | Problem                  | Andy   | Charlie   |
 |------:|:------------|:-------------------------------------------|:-------------------------|:-------|:----------|
 |     1 | baekjoon    | <span style="color:#CD7F32;">bronze</span> | 1110                     | ✅     | ✅        |
-|     2 | baekjoon    | <span style="color:#CD7F32;">bronze</span> | 13458                    | ❌     | ✅        |
+|     2 | baekjoon    | <span style="color:#CD7F32;">bronze</span> | 13458                    | ✅     | ✅        |
 |     3 | baekjoon    | <span style="color:#CD7F32;">bronze</span> | 2331                     | ✅     | ✅        |
 |     4 | baekjoon    | <span style="color:#CD7F32;">bronze</span> | 2775                     | ❌     | ✅        |
 |     5 | baekjoon    | <span style="color:#CD7F32;">bronze</span> | 2798                     | ✅     | ✅        |
